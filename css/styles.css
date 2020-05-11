@@ -100,11 +100,16 @@ header button {
     width: 880px;
 }
 
+#contAndAbout div{
+    display: inline-block;
+    width: 50%;
+    padding: 2em;
+}
 
 
-
-
-
+#Contacts{
+    background: #2690d4;
+}
 
 
 
