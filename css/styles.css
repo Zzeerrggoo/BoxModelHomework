@@ -33,7 +33,6 @@ header {
     z-index: -1;
 }
 
-
 header h1 {
     padding-top: 100px;
     padding-bottom: 0;
@@ -75,30 +74,23 @@ header button:hover{
     margin: 0 1em;
 }
 
-#cards div {
-    margin-top: 2em;
-    margin-bottom: 2em;
-    width: 273px;
-    height: 496px;
-    display: inline-block;
-    background: white;
-}
 
 #cards img {
     margin: 0;
     display: block;
     width: 100%;
-    height: auto;
 }
 
 .card{
-    margin: 0.5em;
     color: #333;
-    background: #eaeaea;
+    height: 100%;
+    margin: 2em 0.5em 2em 0.5em;
+    width: 273px;
+    display: inline-block;
+    background: white;
 }
 
-.cardWrapper p{
-
+.cardWrapper {
     padding: 1.5em;
 }
 
@@ -107,6 +99,7 @@ header button:hover{
     padding: 2em;
     color: #333;
 }
+
 #digitalNeeds div{
     display: inline-block;
     width: 880px;
@@ -117,7 +110,6 @@ header button:hover{
     width: 50%;
     padding: 2em;
 }
-
 
 #Contacts{
     background: #2690d4;
