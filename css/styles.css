@@ -6,10 +6,53 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: #333;
+    background: #333333;
     color: #fff;
     font-size: 1.1em;
     line-height: 1.5;
     text-align: center;
 }
 
+h1, h2, h3, p{
+    padding: 1em 0;
+}
+
+header{
+    height: 450px;
+}
+
+#bg_image{
+    display: block;
+    background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    height: inherit;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+
+header h1{
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+header div{
+    display: inline-block;
+    width:  880px;
+}
+
+header button{
+    font-size: inherit;
+    text-transform: capitalize;
+    margin: 0.5em;
+    padding: 1em 2em;
+    border: 1px solid #666;
+}
+
+
+#webDev
+{
+    background-color: white;
+}
