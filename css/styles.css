@@ -45,15 +45,25 @@ header div {
 }
 
 header button {
+
     font-size: inherit;
     text-transform: capitalize;
-    margin: 0.5em;
     padding: 1em 2em;
     border: 1px solid #666;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    margin: 0.5em 0;
+
 }
 
 #webDev {
     padding-bottom: 2em;
+    background: #eaeaea;
+    color: #333;
+}
+
+header button:hover{
     background: #eaeaea;
     color: #333;
 }
@@ -71,6 +81,7 @@ header button {
     width: 273px;
     height: 496px;
     display: inline-block;
+    background: white;
 }
 
 #cards img {
@@ -87,6 +98,7 @@ header button {
 }
 
 .cardWrapper p{
+
     padding: 1.5em;
 }
 
