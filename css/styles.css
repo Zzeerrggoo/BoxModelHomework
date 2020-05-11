@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     background: #333333;
     color: #fff;
@@ -13,15 +13,15 @@ body{
     text-align: center;
 }
 
-h1, h2, h3, p{
+h1, h2, h3, p {
     padding: 1em 0;
 }
 
-header{
+header {
     height: 450px;
 }
 
-#bg_image{
+#bg_image {
     display: block;
     background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
     background-size: cover;
@@ -33,17 +33,18 @@ header{
     z-index: -1;
 }
 
-header h1{
+
+header h1 {
     padding-top: 100px;
     padding-bottom: 0;
 }
 
-header div{
+header div {
     display: inline-block;
-    width:  880px;
+    width: 880px;
 }
 
-header button{
+header button {
     font-size: inherit;
     text-transform: capitalize;
     margin: 0.5em;
@@ -51,17 +52,62 @@ header button{
     border: 1px solid #666;
 }
 
-
-#webDev
-{
+#webDev {
     padding-bottom: 2em;
     background: #eaeaea;
     color: #333;
 }
 
-#webDev div{
+#webDev div {
     display: inline-block;
     padding-bottom: 1em;
     width: 400px;
     margin: 0 1em;
 }
+
+#cards div {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 273px;
+    height: 496px;
+    display: inline-block;
+}
+
+#cards img {
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card{
+    margin: 0.5em;
+    color: #333;
+    background: #eaeaea;
+}
+
+.cardWrapper p{
+    padding: 1.5em;
+}
+
+#digitalNeeds{
+    background: #fff;
+    padding: 2em;
+    color: #333;
+}
+#digitalNeeds div{
+    display: inline-block;
+    width: 880px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
