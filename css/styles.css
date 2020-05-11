@@ -28,7 +28,7 @@ header{
     background-position: center;
     opacity: 0.4;
     height: inherit;
-    width: 100vw;
+    width: 100%;
     position: absolute;
     z-index: -1;
 }
@@ -54,5 +54,14 @@ header button{
 
 #webDev
 {
-    background-color: white;
+    padding-bottom: 2em;
+    background: #eaeaea;
+    color: #333;
+}
+
+#webDev div{
+    display: inline-block;
+    padding-bottom: 1em;
+    width: 400px;
+    margin: 0 1em;
 }
