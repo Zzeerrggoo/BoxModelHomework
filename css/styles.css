@@ -46,23 +46,27 @@ header div {
 header button {
 
     font-size: inherit;
-    text-transform: capitalize;
     padding: 1em 2em;
     border: 1px solid #666;
     background: #333;
-    color: #fff;
-    text-decoration: none;
     margin: 0.5em 0;
-
+    color: #fff;
 }
 
-#webDev {
-    padding-bottom: 2em;
-    background: #eaeaea;
-    color: #333;
+#ReadMe{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: inherit;
 }
 
 header button:hover{
+    background: #eaeaea;
+    color: #666;
+}
+
+
+#webDev {
+    padding-bottom: 2em;
     background: #eaeaea;
     color: #333;
 }
