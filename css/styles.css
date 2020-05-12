@@ -41,29 +41,24 @@ header h1 {
 header div {
     display: inline-block;
     width: 880px;
+    height: inherit;
 }
 
-header button {
-
-    font-size: inherit;
+#ReadMe{
+    display: inline-block;
     padding: 1em 2em;
     border: 1px solid #666;
     background: #333;
     margin: 0.5em 0;
     color: #fff;
-}
-
-#ReadMe{
     text-transform: capitalize;
     text-decoration: none;
-    color: inherit;
 }
 
-header button:hover{
+header #ReadMe:hover{
     background: #eaeaea;
     color: #666;
 }
-
 
 #webDev {
     padding-bottom: 2em;
